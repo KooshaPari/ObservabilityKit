@@ -1,5 +1,11 @@
 # ObservabilityKit
 
+[![Build](https://img.shields.io/github/actions/workflow/status/KooshaPari/ObservabilityKit/ci.yml?branch=main&label=build)](https://github.com/KooshaPari/ObservabilityKit/actions)
+[![Release](https://img.shields.io/github/v/release/KooshaPari/ObservabilityKit?include_prereleases&sort=semver)](https://github.com/KooshaPari/ObservabilityKit/releases)
+[![License](https://img.shields.io/github/license/KooshaPari/ObservabilityKit)](LICENSE)
+[![Phenotype](https://img.shields.io/badge/Phenotype-org-blueviolet)](https://github.com/KooshaPari)
+
+
 **Unified Observability SDKs & Instrumentation for Phenotype**
 
 ObservabilityKit provides language-specific SDKs and instrumentation libraries for OpenTelemetry integration. It simplifies adding distributed tracing, metrics collection, and structured logging to any service—with automatic context propagation and minimal boilerplate.
