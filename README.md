@@ -154,6 +154,10 @@ All work tracked in AgilePlus. New SDKs or integrations must:
 - Document performance impact
 - Maintain backward compatibility
 
+## License
+
+MIT — see [LICENSE](./LICENSE).
+
 ---
 
 **Version**: v0.1.0  
