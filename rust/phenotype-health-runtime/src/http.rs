@@ -190,8 +190,8 @@ async fn health_component_handler(
 /// # Example
 ///
 /// ```rust
-/// use phenotype_health::http::health_routes;
-/// use phenotype_health::HealthRegistry;
+/// use phenotype_health_runtime::http::health_routes;
+/// use phenotype_health_runtime::HealthRegistry;
 /// use std::sync::Arc;
 ///
 /// let registry = Arc::new(HealthRegistry::new());

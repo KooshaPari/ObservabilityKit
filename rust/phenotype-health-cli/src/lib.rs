@@ -2,7 +2,7 @@ use serde::Serialize;
 use std::path::Path;
 
 use phenotype_compliance_scanner::{ComplianceScanner, Finding, Severity};
-use phenotype_health::{HealthRegistry, HealthStatus};
+use phenotype_health_runtime::{HealthRegistry, HealthStatus};
 use phenotype_project_registry::{discover_projects, ProjectMetadata, ProjectType};
 use phenotype_security_aggregator::{
     Finding as SecurityFinding, SecurityAggregator,
@@ -1080,7 +1080,7 @@ ignore = [
 
 /// Webhook notification support
 pub mod webhook {
-    use phenotype_health::HealthStatus;
+    use phenotype_health_runtime::HealthStatus;
     use serde_json::json;
     use std::collections::HashMap;
 

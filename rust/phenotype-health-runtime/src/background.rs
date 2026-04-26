@@ -50,8 +50,8 @@ impl BackgroundScheduler {
     /// # Example
     ///
     /// ```rust,no_run
-    /// use phenotype_health::background::BackgroundScheduler;
-    /// use phenotype_health::HealthRegistry;
+    /// use phenotype_health_runtime::background::BackgroundScheduler;
+    /// use phenotype_health_runtime::HealthRegistry;
     /// use std::sync::Arc;
     /// use std::time::Duration;
     ///
@@ -85,8 +85,8 @@ impl BackgroundScheduler {
     /// # Example
     ///
     /// ```rust,no_run
-    /// use phenotype_health::background::BackgroundScheduler;
-    /// use phenotype_health::HealthRegistry;
+    /// use phenotype_health_runtime::background::BackgroundScheduler;
+    /// use phenotype_health_runtime::HealthRegistry;
     /// use std::sync::Arc;
     /// use std::time::Duration;
     ///

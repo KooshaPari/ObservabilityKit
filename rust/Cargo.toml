@@ -3,7 +3,7 @@ resolver = "2"
 members = [
     "helix-logging",
     "helix-tracing",
-    "phenotype-health",
+    "phenotype-health-runtime",
     "phenotype-health-axum",
     "phenotype-health-cli",
     "phenotype-logging",

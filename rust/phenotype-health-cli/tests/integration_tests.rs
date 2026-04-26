@@ -1,6 +1,6 @@
 //! Integration tests for phenotype-health-cli
 
-use phenotype_health::HealthStatus;
+use phenotype_health_runtime::HealthStatus;
 use phenotype_health_cli::{
     HealthMetrics, ProjectHealthResult, ProjectSummary, UnifiedHealthReport, UnifiedHealthScanner,
 };

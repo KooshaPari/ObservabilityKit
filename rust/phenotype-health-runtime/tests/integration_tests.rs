@@ -1,7 +1,7 @@
 //! Integration tests for phenotype-health
 
 use chrono::{Duration, Utc};
-use phenotype_health::{
+use phenotype_health_runtime::{
     composite::CompositeHealthCheck,
     history::{HealthHistory, HistoryEntry, TrendAnalyzer},
     ComponentHealthCheck, HealthCheck, HealthRegistry, HealthStatus,

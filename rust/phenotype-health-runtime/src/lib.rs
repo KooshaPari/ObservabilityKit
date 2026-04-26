@@ -18,7 +18,7 @@
 //! # Usage
 //!
 //! ```rust,ignore
-//! use phenotype_health::{HealthCheck, HealthStatus, HealthRegistry};
+//! use phenotype_health_runtime::{HealthCheck, HealthStatus, HealthRegistry};
 //! use async_trait::async_trait;
 //!
 //! // Define a health check
@@ -31,7 +31,7 @@
 //!         "database"
 //!     }
 //!
-//!     async fn check(&self) -> Result<HealthStatus, phenotype_health::HealthCheckError> {
+//!     async fn check(&self) -> Result<HealthStatus, phenotype_health_runtime::HealthCheckError> {
 //!         Ok(HealthStatus::Healthy)
 //!     }
 //! }
@@ -45,7 +45,7 @@
 //! # Example: Health History
 //!
 //! ```rust,ignore
-//! use phenotype_health::history::{HealthHistory, HistoryEntry};
+//! use phenotype_health_runtime::history::{HealthHistory, HistoryEntry};
 //! use chrono::Utc;
 //!
 //! let mut history = HealthHistory::new(100);
@@ -63,7 +63,7 @@
 //! # Example: Composite Checks
 //!
 //! ```rust,ignore
-//! use phenotype_health::composite::{CompositeHealthCheck, CompositeRegistry};
+//! use phenotype_health_runtime::composite::{CompositeHealthCheck, CompositeRegistry};
 //!
 //! let check = CompositeHealthCheck::new("api", ApiCheck)
 //!     .depends_on("database")

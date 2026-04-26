@@ -9,7 +9,7 @@ description = "HTTP server and dashboard for phenotype-health"
 
 [dependencies]
 # Core phenotype libraries
-phenotype-health = { path = "../phenotype-health" }
+phenotype-health-runtime = { path = "../phenotype-health-runtime" }
 phenotype-health-cli = { path = "../phenotype-health-cli" }
 
 # HTTP server
