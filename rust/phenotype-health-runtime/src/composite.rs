@@ -9,8 +9,8 @@
 //! ## Creating a Composite Check
 //!
 //! ```rust,ignore
-//! use phenotype_health::composite::CompositeHealthCheck;
-//! use phenotype_health::{HealthCheck, HealthStatus};
+//! use phenotype_health_runtime::composite::CompositeHealthCheck;
+//! use phenotype_health_runtime::{HealthCheck, HealthStatus};
 //!
 //! // Create a check for an API service that depends on database and cache
 //! let api_check = CompositeHealthCheck::new("api", ApiHealthCheck)
@@ -21,7 +21,7 @@
 //! ## Using the Composite Registry
 //!
 //! ```rust,ignore
-//! use phenotype_health::composite::{CompositeHealthCheck, CompositeRegistry};
+//! use phenotype_health_runtime::composite::{CompositeHealthCheck, CompositeRegistry};
 //!
 //! let mut registry = CompositeRegistry::new();
 //!

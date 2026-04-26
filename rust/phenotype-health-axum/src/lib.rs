@@ -63,7 +63,7 @@ use axum::{
     Router,
 };
 use chrono::{DateTime, Utc};
-use phenotype_health::HealthStatus;
+use phenotype_health_runtime::HealthStatus;
 use phenotype_health_cli::{UnifiedHealthReport, UnifiedHealthScanner};
 use serde::Serialize;
 use std::net::SocketAddr;

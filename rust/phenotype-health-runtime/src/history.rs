@@ -8,8 +8,8 @@
 //! ## Basic History Tracking
 //!
 //! ```rust,ignore
-//! use phenotype_health::history::{HealthHistory, HistoryEntry};
-//! use phenotype_health::HealthStatus;
+//! use phenotype_health_runtime::history::{HealthHistory, HistoryEntry};
+//! use phenotype_health_runtime::HealthStatus;
 //! use chrono::Utc;
 //!
 //! let mut history = HealthHistory::new(100);
@@ -31,7 +31,7 @@
 //! ## Persistent Storage
 //!
 //! ```rust,ignore
-//! use phenotype_health::history::persistence::HistoryStorage;
+//! use phenotype_health_runtime::history::persistence::HistoryStorage;
 //!
 //! let storage = HistoryStorage::new("/path/to/history.json");
 //! storage.save_history("database", &history).unwrap();
@@ -42,7 +42,7 @@
 //! ## Trend Analysis
 //!
 //! ```rust,ignore
-//! use phenotype_health::history::TrendAnalyzer;
+//! use phenotype_health_runtime::history::TrendAnalyzer;
 //!
 //! let analysis = TrendAnalyzer::analyze(&history);
 //! println!("Trend: {}", analysis);

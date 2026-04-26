@@ -55,8 +55,8 @@ pub fn init_health_metrics() {
 /// # Example
 ///
 /// ```rust,no_run
-/// use phenotype_health::metrics::record_health_metrics;
-/// use phenotype_health::{HealthRegistry, HealthReport};
+/// use phenotype_health_runtime::metrics::record_health_metrics;
+/// use phenotype_health_runtime::{HealthRegistry, HealthReport};
 ///
 /// async fn update_metrics(registry: &HealthRegistry) {
 ///     let report = registry.check_all().await;
@@ -130,7 +130,7 @@ impl MetricsRecorder {
 /// # Example
 ///
 /// ```rust,no_run
-/// use phenotype_health::metrics::install_prometheus;
+/// use phenotype_health_runtime::metrics::install_prometheus;
 ///
 /// fn main() {
 ///     install_prometheus();
