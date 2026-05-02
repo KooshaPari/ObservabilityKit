@@ -9,7 +9,7 @@ description = "Performance monitoring and analysis toolkit for Python applicatio
 requires-python = ">=3.11"
 readme = "README.md"
 license = { text = "MIT" }
-authors = [{ name = "Phenotype Team", email = "team@phenotype.dev" }]
+authors = [{ name = "Phenotype Team", email = "team@phenotype.space" }]
 keywords = ["performance", "benchmarking", "profiling", "monitoring", "analysis"]
 classifiers = [
     "Development Status :: 4 - Beta",
